@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Muhammad Chalif Chaidir</title>
+        <link rel="stylesheet" href="./styles/style.css" />
+        <link rel="stylesheet" href="./styles/responsive.css" />
+    </head>
+
+    <!-- Header -->
+    <header>
+        <div class="main-container">
+            <div class="nav">
+                <div class="logo">
+                    <a href="/">MCC</a>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolios">Portfolio</a></li>
+                        <li><a href="#skills">Education & Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li>
+                            <a href="/resume.pdf" target="_blank">
+                                <button class="btn">Resume</button>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="burger">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                    <div class="line-3"></div>
+                </div>
+            </div>
+
+            <section id="hero">
+                <div class="hero-left">
+                    <h3 class="pre-title">My name is</h3>
+                    <h1 class="hero-name">Muhammad <span>Chalif</span> Chaidir</h1>
+                    <p>
+                        Information Systems graduate from Gunadarma University with a 3.81/4.00 GPA. Actively participate in internal campus organisations and project-based course learning programmes.
+                    </p>
+                </div>
+                <div class="hero-right">
+                    <img src="./images/Chalif.jpg" alt="Person Standing">
+                </div>
+            </section>
+        </div> 
+    </header>
+    <!-- End of Header -->
+
+    <!-- Services -->
+    <section id="services">
+        <div class="services main-container">
+            <h3 class="pre-title">Services</h3>
+            <h1 class="section-title services-title">Specialized In</h1>
+
+            <div class="grid-3">
+                <!-- Service 1 -->
+                <div class="service">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21.169 19.754c.522-.79.831-1.735.831-2.754 0-2.761-2.238-5-5-5s-5 2.239-5 5 2.238 5 5 5c1.019 0 1.964-.309 2.755-.832l2.831 2.832 1.414-1.414-2.831-2.832zm-4.169.246c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.346 3 3-1.346 3-3 3zm-4.89 2h-7.11l2.599-3h2.696c.345 1.152.976 2.18 1.815 3zm-2.11-5h-10v-17h22v12.11c-.574-.586-1.251-1.068-2-1.425v-8.685h-18v13h8.295c-.19.634-.295 1.305-.295 2zm-4-4h-2v-6h2v6zm3 0h-2v-9h2v9zm3 0h-2v-4h2v4z"/></svg>
+                    </div>
+                    <h4>Data Analyst</h4>
+                    <p>Pre-processing and data gathering. Emphasis on representing data via reporting and visualization. Responsible for statistical analysis & data interpretation. Ensures data acquisition & maintenance. Optimize Statistical Efficiency & Quality.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12.008 0c-4.225 0-10.008 1.001-10.008 4.361v15.277c0 3.362 6.209 4.362 10.008 4.362 3.783 0 9.992-1.001 9.992-4.361v-15.278c0-3.361-5.965-4.361-9.992-4.361zm0 2c3.638 0 7.992.909 7.992 2.361 0 1.581-5.104 2.361-7.992 2.361-3.412.001-8.008-.905-8.008-2.361 0-1.584 4.812-2.361 8.008-2.361zm7.992 17.386c0 1.751-5.104 2.614-7.992 2.614-3.412 0-8.008-1.002-8.008-2.614v-2.04c2.117 1.342 5.17 1.78 8.008 1.78 2.829 0 5.876-.438 7.992-1.78v2.04zm0-4.873c0 1.75-5.104 2.614-7.992 2.614-3.412-.001-8.008-1.002-8.008-2.614v-2.364c2.116 1.341 5.17 1.78 8.008 1.78 2.839 0 5.881-.442 7.992-1.78v2.364zm-7.992-2.585c-3.426 0-8.008-1.006-8.008-2.614v-2.371c2.117 1.342 5.17 1.78 8.008 1.78 2.829 0 5.876-.438 7.992-1.78v2.372c0 1.753-5.131 2.613-7.992 2.613z"/></svg>
+                    </div>
+                    <h4>Data Engineer</h4>
+                    <p>Develop, test & maintain architectures. Understand programming and its complexity. Deploy Machine Learnings & statistical models. Building pipelines for various ETL operations. Ensures data accuracy and flexibility.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service">
+                    <div class="service-icon">
+                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 22.246c-.428 0-1.099-.709-1.688-2.276-.579.295-1.082.527-1.571.738.767 1.992 1.858 3.292 3.259 3.292 1.44 0 2.552-1.371 3.322-3.452-.485-.201-.997-.43-1.581-.719-.599 1.667-1.298 2.417-1.741 2.417zm-4.709-2.216c-3.099 1.139-6.29 1.168-6.29-1.644 0-.939.435-2.257 1.796-4.082.581-.779 1.254-1.545 1.937-2.248 1.531-1.555 3.256-3.05 5.505-4.599-1.083-.596-2.264-1.167-3.416-1.59-1.18-.435-2.219-.676-3.015-.676-.508 0-.886.107-1.009.288-.133.192-.138.784.445 1.843l.21-.013c1.047 0 1.898.866 1.898 1.933 0 1.067-.851 1.931-1.898 1.931-1.048 0-1.897-.864-1.897-1.931 0-.346.089-.67.245-.951-.59-1.04-.802-1.86-.802-2.503 0-1.515 1.154-2.354 2.808-2.354 2.514 0 5.9 1.662 8.082 2.946 2.214-1.363 5.717-3.159 8.304-3.159 1.893 0 2.807 1.054 2.807 2.395 0 .939-.436 2.256-1.796 4.08-3.084 4.137-9.216 8.606-13.914 10.334zm14.917-4.305c.142-.27.22-.576.22-.902 0-1.068-.849-1.933-1.897-1.933s-1.897.865-1.897 1.933c0 1.066.849 1.93 1.897 1.93l.258-.017c.552 1.024.544 1.597.415 1.787-.124.181-.501.287-1.01.287-1.602 0-3.833-.944-5.27-1.657-.48.342-1.075.748-1.657 1.119 1.925 1.036 4.757 2.295 6.927 2.295 1.64 0 2.808-.83 2.808-2.354 0-.638-.211-1.455-.794-2.488zm-12.834.119h-.001l-.013-.01c-1.144-.81-2.272-1.7-3.317-2.631-2.817 2.877-3.611 4.963-3.238 5.524.126.189.492.299 1.003.299 2.35 0 6.08-2.018 8.287-3.465 2.709-1.775 5.8-4.328 7.736-6.926 1.506-2.018 1.552-3.081 1.366-3.361-.126-.19-.491-.298-1.003-.298-1.952 0-4.924 1.459-6.636 2.447 1.263.836 2.443 1.719 3.52 2.616-.408.415-.834.819-1.27 1.211-1.196-.982-2.524-1.946-3.901-2.81-1.581 1.036-3.173 2.254-4.603 3.552 1.075.951 2.356 1.949 3.721 2.873-.522.331-1.049.647-1.651.979zm2.626-5.844c1.104 0 2 .896 2 2s-.896 2-2 2-2-.896-2-2 .896-2 2-2zm-1.739-5.828c-.58-.285-1.095-.518-1.581-.718.77-2.082 1.882-3.454 3.32-3.454 1.403 0 2.495 1.302 3.261 3.292-.49.212-.996.447-1.572.739-.587-1.567-1.258-2.275-1.689-2.275-.441 0-1.139.75-1.739 2.416z"/></svg>
+                    </div>
+                    <h4>Data Scientist</h4>
+                    <p>Responsible for developing Operational Models. Carry out data analytics and optimization using machine learning & deep learning. Involved in strategic planning for data analytics. Integrate data & perform ad-hoc analysis. Fill in the gap between the stakeholders and customer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Services -->
+
+    <!-- Portfolio -->
+    <section id="portfolios">
+        <div class="portfolios main-container"></div>
+        <h3 class="pre-title">My Works</h3>
+        <h1 class="section-title">Featured Portfolios</h1>
+
+        <div class="grid-3">
+            <!-- Portfolio 1 -->
+            <div class="portfolio">
+                <div class="portfolio-cover">
+                    <img src="./images/portfolios/portfolio-1.png" alt="Portfolio 1">
+                </div>
+
+                <div class="portfolio-info">
+                    <div class="portfolio-title">
+                        <h4>Kampus Merdeka x Binar Academy: Studi Independen Product Management</h4>
+                        <a href="https://drive.google.com/drive/folders/13Q8zjOnbwykvDR-1N_ojQqAdbLw3eFkt?usp=sharing" class="portfolio-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                        </a>
+                    </div>
+
+                    <div class="portfolio-tags">
+                        <div>Figma</div>
+                        <div>Trello</div>
+                        <div>Google Docs</div>
+                    </div>
+
+                    <p>
+                        Syllabus: Programming Introduction, PM 101, User Interface & Experience Design Introduction, Writting as Important Skill of PM, Business 101, Tech 101, Data 101, Design Thinking & Design Sprint, User Persona, Emphaty Map, Diffusion Innovation Theory, Customer Journey Map, Usability Heuristic, Prototype, Prioritization on PM, Research Method, SDLC 101, Waterfall Framework, Agile Framework, Quality Assurance, Product Roadmap, BRD, PRD, Feasibility Study, Revenue Management, Deliver Pitch Deck, Digital Marketing 101, Linkedin 101, PM Portfolio, Interview with HR, PM & UI/UX Project.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Portfolio 2 -->
+            <div class="portfolio">
+                <div class="portfolio-cover">
+                    <img src="./images/portfolios/portfolio-2.png" alt="Portfolio 2">
+                </div>
+
+                <div class="portfolio-info">
+                    <div class="portfolio-title">
+                        <h4>Digitalent Kominfo x Binar Academy: Fresh Graduate Academy Data Science</h4>
+                        <a href="https://drive.google.com/drive/folders/1PgPYAKbtbIbxfd3s8MVNhEzulRn3i0xf?usp=sharing" class="portfolio-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                        </a>
+                    </div>
+
+                    <div class="portfolio-tags">
+                        <div>BigQuery</div>
+                        <div>Looker Studio</div>
+                        <div>Google Colab</div>
+                    </div>
+
+                    <p>
+                        Syllabus: BI Basic Tools, Basic Database, SQL, Statistic, Introduction to Machine Learning, Introduction to Data Modelling, Data Processing, Case Study(Data Processing & Statistic),Regression Analysis, Classification Analysis, Case Study(Regression Analysis),Advance Topic of Machine Learning, Case Study(Classification Analysis), Challenge Presentation.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Portfolio 3 -->
+            <div class="portfolio">
+                <div class="portfolio-cover">
+                    <img src="./images/portfolios/portfolio-3.png" alt="Portfolio 3">
+                </div>
+
+                <div class="portfolio-info">
+                    <div class="portfolio-title">
+                        <h4>Rakamin Academy x Kalbe Nutritionals: Project-Based Internship Data Scientist</h4>
+                        <a href="https://drive.google.com/drive/folders/1jxdIFiVmdB6bwvk9UMGAUUJCkBkfLHcB?usp=sharing" class="portfolio-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                        </a>
+                    </div>
+
+                    <div class="portfolio-tags">
+                        <div>PostgreSQL</div>
+                        <div>Jupyter Notebook</div>
+                        <div>Tableu</div>
+                    </div>
+
+                    <p>
+                        Syllabus: Overview Data Scientist, Probability & Distribution, Big Data, Database Management, Statistics & Data Science, SQL Operation (Table CRUD, Join, Operators, Grouping & Query), Exploratory Data Analysis, Data Visualization, Graph & Data Storytelling, Basic SQL & Exploration Data Knowledge, Fundamental of Machine Learning, Data Cleaning, Data Preprocessing, Feature Engineering, Supervised Learning (Regression, Classification), ML Automation & Data Visualization, Clustering Model, Evaluation Performance of ML, Unsupervised Learning, Final Project Data Modelling.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="grid-3">
+            <!-- Portfolio 4 -->
+            <div class="portfolio">
+                <div class="portfolio-cover">
+                    <img src="./images/portfolios/portfolio-4.png" alt="Portfolio 4">
+                </div>
+
+                <div class="portfolio-info">
+                    <div class="portfolio-title">
+                        <h4>LePKom Universitas Gunadarma: Oracle Database</h4>
+                        <a href="https://drive.google.com/drive/folders/17CHc4whcDgHyb26A7JmiOqVVKhzMYGk8?usp=sharing" class="portfolio-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                        </a>
+                    </div>
+
+                    <div class="portfolio-tags">
+                        <div>Database</div>
+                        <div>SQL</div>
+                        <div>Oracle</div>
+                    </div>
+
+                    <p>
+                        Syllabus: Introduction & installation process of oracle 10g, creating database in oracle 10g, Managing oracle instance, database storage structure & user security, Managing schema objects, undo data, data & concurency, Implementing oracle database security, Configuring the Oracle Network Environment, Proactive maintenance and peformance management, Backup & Recovery Concepts, Performing Database Backups & Recovery.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Portfolio 5 -->
+            <div class="portfolio">
+                <div class="portfolio-cover">
+                    <img src="./images/portfolios/portfolio-5.png" alt="Portfolio 5">
+                </div>
+
+                <div class="portfolio-info">
+                    <div class="portfolio-title">
+                        <h4>Portfolio 5</h4>
+                        <a href="/" class="portfolio-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                        </a>
+                    </div>
+
+                    <div class="portfolio-tags">
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                    </div>
+
+                    <p>
+                        Syllabus: ?
+                    </p>
+                </div>
+            </div>
+
+            <!-- Portfolio 6 -->
+            <div class="portfolio">
+                <div class="portfolio-cover">
+                    <img src="./images/portfolios/portfolio-6.png" alt="Portfolio 6">
+                </div>
+
+                <div class="portfolio-info">
+                    <div class="portfolio-title">
+                        <h4>Portfolio 6</h4>
+                        <a href="/" class="portfolio-link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                        </a>
+                    </div>
+
+                    <div class="portfolio-tags">
+                        <div>1</div>
+                        <div>2</div>
+                        <div>3</div>
+                    </div>
+
+                    <p>
+                        Syllabus: ?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Portfolio -->
+
+    <!-- Education & Skills -->
+    <section id="skills">
+        <div class="skills main-container">
+            <h3 class="pre-title">Learning Path</h3>
+            <h1 class="section-title">Education & Skill</h1>
+
+            <div class="skills-grid">
+                <div class="skills-left">
+                    <!-- Education 1 -->
+                    <div class="education">
+                        <div class="line">
+                            <div></div>
+                        </div>
+                        <div class="education-info">
+                            <h4 class="education-title">SMAN 6 Depok</h4>
+                            <p>IPA</p>
+                            <h4 class="education-years">2015 - 2018</h4>
+                        </div>
+                    </div>
+                    <!-- Education 2 -->
+                    <div class="education">
+                        <div class="line">
+                            <div></div>
+                        </div>
+                        <div class="education-info">
+                            <h4 class="education-title">Gunadarma University</h4>
+                            <p>S1 - Sistem Informasi</p>
+                            <h4 class="education-years">2018 - 2022</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-right">
+                    <p>Enthusiastic and passionate learners who want to improve their knowledge in the field of technology. Quickly adapt to new environments and can work well both independently and in a team.</p>
+                    
+                    <div class="skills-list">
+                        <ul>
+                            <li>Microsoft Office</li>
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>Big Data</li>
+                            <li>BI Tools</li>
+                        </ul>
+                        <ul>
+                            <li>Team Work</li>
+                            <li>Communication</li>
+                            <li>Problem Solving</li>
+                            <li>Critical Thinking</li>
+                            <li>Attention to Detail</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Education & Skills -->
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="contact main-container">
+            <div class="contact-left">
+                <form class="contact-form" action="https://formspree.io/f/xvojvkov" method="POST">
+                    <div>
+                        <input type="text" placeholder="Name" name="name">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Email" name="email">
+                    </div>
+                    <div>
+                        <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button class="btn-submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="contact-right">
+                <!-- Address -->
+                <div class="contact-item">
+                    <div class="contact-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 3c2.131 0 4 1.73 4 3.702 0 2.05-1.714 4.941-4 8.561-2.286-3.62-4-6.511-4-8.561 0-1.972 1.869-3.702 4-3.702zm0-2c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm8 6h-3.135c-.385.641-.798 1.309-1.232 2h3.131l.5 1h-4.264l-.344.544-.289.456h.558l.858 2h-7.488l.858-2h.479l-.289-.456-.343-.544h-2.042l-1.011-1h2.42c-.435-.691-.848-1.359-1.232-2h-3.135l-4 8h24l-4-8zm-12.794 6h-3.97l1.764-3.528 1.516 1.528h1.549l-.859 2zm8.808-2h3.75l1 2h-3.892l-.858-2z"/></svg>
+                    </div>
+                    <div class="contact-item-detail">
+                        <h4>Address</h4>
+                        <p>Pengasinan, Sawangan, Depok, Jawa Barat, Indonesia</p>
+                    </div>
+                </div>
+                <!-- Phone -->
+                <div class="contact-item">
+                    <div class="contact-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17.5 2c.276 0 .5.224.5.5v19c0 .276-.224.5-.5.5h-11c-.276 0-.5-.224-.5-.5v-19c0-.276.224-.5.5-.5h11zm2.5 0c0-1.104-.896-2-2-2h-12c-1.104 0-2 .896-2 2v20c0 1.104.896 2 2 2h12c1.104 0 2-.896 2-2v-20zm-9.5 1h3c.276 0 .5.224.5.501 0 .275-.224.499-.5.499h-3c-.275 0-.5-.224-.5-.499 0-.277.225-.501.5-.501zm1.5 18c-.553 0-1-.448-1-1s.447-1 1-1c.552 0 .999.448.999 1s-.447 1-.999 1zm5-3h-10v-13h10v13z"/></svg>
+                    </div>
+                    <div class="contact-item-detail">
+                        <h4>Phone</h4>
+                        <p>(+62) 81220666530</p>
+                    </div>
+                </div>
+                <!-- Email -->
+                <div class="contact-item">
+                    <div class="contact-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"/></svg>
+                    </div>
+                    <div class="contact-item-detail">
+                        <h4>Email</h4>
+                        <p>muhammadchalifchaidir@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Contact -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-icons">
+            <a href="https://www.linkedin.com/in/mchalifc/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/mchalifc/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://wa.me/6281220666530">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+            </a>
+        </div>
+        <p>&#169; 2023 - Made by Muhammad Chalif Chaidir</p>
+    </footer>
+    <!-- End of Footer -->
+
+    <script src="scripts/main.js"></script>
+    </body>
+</html>
